@@ -1,0 +1,144 @@
+
+#nav-list {
+
+	
+	margin-top:50px
+
+	
+}
+header { background-color: yellow;
+
+}
+body {
+	background-color: #bdb76b;
+}
+#container {
+	background-color: yellow;
+	padding-right:0px; 
+	padding-left:0px;
+
+}
+ .navbar{
+ 	background-color: yellow;
+ }
+
+#button {
+	background-color: orange;
+}
+
+
+ul {background-color: yellow;
+	
+
+
+}
+
+
+
+
+
+#menu {
+	text-align: center;
+}
+
+#C-title {
+	text-align: center;
+	margin-top: 20px;
+	position: relative;
+	top: 32px;
+	font-size: 25px;
+
+}
+#B-title {
+	text-align: center;
+	margin-top: 20px;
+	position: relative;
+	top: 32px;
+	font-size: 25px;
+
+}
+
+#S-title {
+	text-align: center;
+	margin-top: 20px;
+	position: relative;
+	top: 32px;
+	font-size: 25px;
+
+}
+
+
+p {
+background-color: orange;
+border: 1px solid black;
+padding-top: 30px;
+}
+
+
+
+
+
+/************ Large devices only *****************/
+@media (min-width: 1200px){ 
+
+
+
+
+
+}
+
+
+/************ Medium devices only *****************/
+@media (min-width: 992px) and (max-width:1199) {
+
+
+
+
+
+
+}
+
+
+/************ Small devices only *****************/
+@media (min-width: 768px) and (max-width:991) {
+
+
+
+
+
+	
+}
+
+
+/************ Extra Small devices only *************/
+@media (min-width: 767px) {
+
+
+
+
+
+
+	
+}
+
+/********Hidden**********/
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg { 
+    display: none !important;
+  }
+}
